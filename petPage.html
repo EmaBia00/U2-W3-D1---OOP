@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lista degli animali:</h1>
+        <form>
+            <label for="petName">Nome Animale</label>
+            <div>
+                <input type="text" name="petName" id="petName" placeholder="Inserisci nome animale" required />
+            </div>
+            <label for="ownerName">Proprietario</label>
+            <div>
+                <input type="text" name="ownerName" id="ownerName" placeholder="Inserisci proprietario" required />
+            </div>
+            <label for="species">Specie</label>
+            <div>
+                <input type="text" name="species" id="species" placeholder="Inserisci specie" />
+            </div>
+            <label for="breed">Razza</label>
+            <div>
+                <input type="text" name="breed" id="breed" placeholder="Inserisci razza" />
+            </div>
+            <button type="submit" id="addButton">Inserisci nella lista</button>
+        </form>
+        <ul id="petList"></ul>
+    </main>
+    <script src="./Exercise2.js"></script>
+</body>
+
+</html>
